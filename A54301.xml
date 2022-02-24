@@ -1,0 +1,645 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The compleat swimmer, or, The art of swimming demonstrating the rules and practice thereof in an exact, plain and easie method : necessary to be known and practised by all who studie or desire their own preservation / by William Percey, Gent.</title>
+            <author>Percey, William, Gent.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1658</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 89 KB of XML-encoded text transcribed from 47 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A54301</idno>
+            <idno type="STC">Wing P1454</idno>
+            <idno type="STC">ESTC R20550</idno>
+            <idno type="EEBO-CITATION">12355337</idno>
+            <idno type="OCLC">ocm 12355337</idno>
+            <idno type="VID">60131</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A54301)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 60131)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 220:13)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The compleat swimmer, or, The art of swimming demonstrating the rules and practice thereof in an exact, plain and easie method : necessary to be known and practised by all who studie or desire their own preservation / by William Percey, Gent.</title>
+                  <author>Percey, William, Gent.</author>
+               </titleStmt>
+               <extent>[10], 83 p. : ill.  </extent>
+               <publicationStmt>
+                  <publisher>Printed by J.C. for Henry Fletcher ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1658.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in Yale University Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Swimming --  Rules --  Early works to 1800.</term>
+               <term>Swimming --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-10</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-10</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-02</date>
+            <label>Pip Willcox</label>Sampled and proofread</change>
+         <change>
+            <date>2011-02</date>
+            <label>Pip Willcox</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="frontispiece">
+            <pb facs="tcp:60131:1"/>
+            <p>
+               <figure>
+                  <figDesc>Naked people swim, dive and run along the bank of a river. Cows graze in fields beyond a town on the opposite bank.</figDesc>
+               </figure>
+            </p>
+         </div>
+         <div type="title_page">
+            <pb facs="tcp:60131:1" rendition="simple:additions"/>
+            <p>
+               <hi>The Compleat Swimmer:</hi> OR, The ART of SWIMMING: Demonſtrating The Rules and Practice thereof, in an Exact, Plain and Eaſie METHOD.</p>
+            <p>Neceſſary to be known and practiſed by all who ſtudie or deſire their own Preſer<g ref="char:EOLhyphen"/>vation.</p>
+            <p>By <hi>William Percey,</hi> Gent.</p>
+            <p>
+               <hi>LONDON:</hi> Printed by <hi>J. C.</hi> for <hi>Henry Fletcher,</hi> at the three Cups in
+<hi>Paul</hi>'s Church-yard, neer the Weſt-End. 1658.</p>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:60131:2"/>
+            <pb facs="tcp:60131:2"/>
+            <head>TO THE INGENIOUS, PRUDENT, AND SELF-PRESERVING READER, And Vigilant Practiſer in the Thrice-noble Exer<g ref="char:EOLhyphen"/>ciſe &amp; Art of <hi>Swimming.</hi>
+            </head>
+            <p>THere are two onely chief <hi>ends,</hi> which are the only <hi>inducements</hi> to all
+<hi>Actions</hi> in the whole <hi>world;</hi> and theſe are <hi>pleaſure</hi> and
+<hi>profit;</hi> yea theſe
+<pb facs="tcp:60131:3"/>are the mayn and only <hi>objects</hi> whereon all Creatures <hi>animal</hi> or
+<hi>rational</hi> fix their eyes; the <hi>wheeles</hi> is on with all our Acti<g ref="char:EOLhyphen"/>ons turn, as the
+<hi>Univerſe</hi> doth upon the <hi>Axletree</hi> theſe are the <hi>Magnets</hi> or
+<hi>Load<g ref="char:EOLhyphen"/>ſtones</hi> that attract all our <hi>thoughts</hi> and <hi>actions</hi> to themſelves as their <hi>Centre:</hi> Doth not the <hi>indefatigable Emmet</hi> keep ſtill
+<hi>exerciſing</hi> his reſtleſs motion all the <hi>ſummer,</hi> that he may enjoy the pleaſure and profit thereof in his <hi>low-roof,</hi> but to himſelf, and his un-aſpiring thoughts, a delightful <hi>Palace.</hi> What <hi>inceſſant</hi> pains takes the <hi>Laboriou; Bee,</hi> that ſhe may en<g ref="char:EOLhyphen"/>joy the ſweetneſs of the <hi>Hony</hi> in the <hi>Artifi<g ref="char:EOLhyphen"/>cial Chambers</hi> of her well-wrought <hi>Ca<g ref="char:EOLhyphen"/>ſtle?</hi> Herein conſiſts pleaſure and profit both. <hi>Sed quid moror iſtis?</hi> The <hi>pru<g ref="char:EOLhyphen"/>dent</hi> and <hi>induſtrious Merchant</hi> Roames far and neer, ſpares neither <hi>coſts</hi> nor <hi>pains, danger, care</hi> nor
+<hi>trouble;</hi> and all for the <hi>ſacred</hi> hunger of <hi>Gold:</hi> Therein conſiſts both his pleaſure and profit too. Nay, the <hi>Toyl-embracing</hi> husband-man merrily
+<hi>whiſtles</hi> along the tediouſneſs of his painful <hi>furrows,</hi> in hopes to rejoyce in a fruitful <hi>Harveſt.</hi>
+            </p>
+            <p>But to ſtay no longer to tyre you with a
+<pb facs="tcp:60131:3"/>
+               <hi>prolixious Context,</hi> which tends onely to unfold unto the ingenious
+<hi>Reader</hi> the <hi>pleaſure</hi> and <hi>profit</hi> that may be reaped by this enſuing diſcourſe; <hi>pleaſure</hi> there is moſt excellent in the excerciſe, in ſporting our bodies upon, and playing with the ſil<g ref="char:EOLhyphen"/>ver <hi>ſtreams:</hi> profit there is in it, in many reſpects; one is, in regard it is <hi>healthful</hi> for our bodies, cleanſing them from ſweat and outward filth; and the greateſt profit of all, is the preſervation of our own Lives: what more <hi>dear?</hi> what more <hi>precious? skin for skin, and all that a man hath, will he give for his life:</hi> As <hi>King Rich<g ref="char:EOLhyphen"/>ard</hi> the third when his horſe was kill'd under him at <hi>Boſworth-field,</hi> would have given a <hi>Kingdom</hi> for another horſe, that thereby he might have ſaved himſelf and the other Kingdom; Crying out, <hi>A King<g ref="char:EOLhyphen"/>dom for a Horſe!</hi> Were the greateſt <hi>Po<g ref="char:EOLhyphen"/>tentate</hi> in the world in danger of drown<g ref="char:EOLhyphen"/>ing, would he not give half his <hi>Domini<g ref="char:EOLhyphen"/>ons</hi> to any one that could ſave his life? yea, all, rather then dye.</p>
+            <p>To excite you to this Noble and <hi>ſelf-ſaving</hi> Exerciſe, modern examples I could give you many; as not long ſince a <hi>Gentle<g ref="char:EOLhyphen"/>man</hi> in danger of drowning in the
+<hi>Thames,</hi>
+               <pb facs="tcp:60131:4"/>cried out, <hi>A thouſand pounds for him that could help him:</hi> had he ſpent but the <hi>tythe</hi> of that time he had imployed in more vain recreations, in learning this
+<hi>Art,</hi> he might have ſaved himſelf and his mo<g ref="char:EOLhyphen"/>ney too.</p>
+            <p>If <hi>Hero</hi> had been skilled herein he had not loſt his <hi>love-ſick</hi> life in ſwimming to his <hi>Leander.</hi>
+            </p>
+            <p>Certainly this <hi>Art</hi> of <hi>Swimming</hi> was had in great eſteem amongſt the
+<hi>Antients:</hi> for when <hi>Ariſtotle</hi> the Prince of <hi>Philoſo<g ref="char:EOLhyphen"/>phers,</hi> and
+<hi>Father</hi> of Nature, would de<g ref="char:EOLhyphen"/>ſcribe a <hi>famous</hi> and <hi>notorious Dunce</hi> indeed, or a meer <hi>ſottiſh blockhead,</hi> he gives him this <hi>Character;</hi> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>. <hi>neque nare, neque legere;</hi> that is, one that could neither <hi>Swim,</hi> nor <hi>Read:</hi> As if he ſhould ſay, What man in the world would be ſo fooliſhly mad, as not be skilful in <hi>Swimming?</hi> and who ſo blockiſhly ſerdid, as not learn to
+<hi>read?</hi>
+            </p>
+            <p>We daily ſee, that when men grow old, and paſt learning, how they will wiſh they had given all they are worth, ſo they had but <hi>learning;</hi> nay, that they could but read their mother-longue: and yet as they have been bred up <hi>better fed then taught
+<pb facs="tcp:60131:4"/>themſelves;</hi> ſo they will ſet children all the week to keep hogs for
+<hi>ſix pence,</hi> rather then ſend them to School to keep them from being
+<hi>hoggiſh.</hi>
+            </p>
+            <p>I remember when I was a ſchool-boy, delighting much in hot weather to bath in our Country
+<hi>Rivulets,</hi> I once was in dan<g ref="char:EOLhyphen"/>ger of drowning; but by the help of another that could
+<hi>Swim,</hi> was ſaved, (and I hope preſerved to be a means to teach others to
+<hi>ſave</hi> themſelves) which danger wrought in me ſuch an earneſt deſire to learn to
+<hi>Swim,</hi> that I ſeldom did forbear the exerciſe a day, till I was become a perfect
+<hi>Swimmer.</hi>
+            </p>
+            <p>I could very well wiſh every man and woman were perfect in <hi>Swimming</hi> like<g ref="char:EOLhyphen"/>wiſe; which with a little practice they eaſily may attain unto: and that they may do it, this enſuing Treatiſe is on purpoſe compo<g ref="char:EOLhyphen"/>ſed, to direct them, as I am aſſured it per<g ref="char:EOLhyphen"/>fectly will, &amp; that not only in one only uſual <hi>poſture</hi> of <hi>Swimming,</hi> that is, on the
+<hi>belly,</hi> but in very many various <hi>poſtures;</hi> ſome far more eaſie then that common way of <hi>Swimming</hi> on the belly, and not ſo toil<g ref="char:EOLhyphen"/>ſome nor wearyſome: for a man may <hi>Swim</hi> on his back without any motion of his <hi>Arms,</hi> leſs with his body, then he muſt
+<pb facs="tcp:60131:5"/>uſe when he <hi>Swims</hi> upon his belly; and is more free from <hi>guſts</hi> of
+<hi>waves,</hi> which ſometimes otherwiſe he muſt be forced to receive againſt his face, and ſo conſequently into his mouth.</p>
+            <p>It is a common received opinion, and ge<g ref="char:EOLhyphen"/>nerally believed by moſt people; and I ac<g ref="char:EOLhyphen"/>count it none of the ſmalleſt reaſons that ſo many are unfortunately drowned, that is, That all Creatures naturally can <hi>Swim,</hi> Mankind only excepted; which opinion, with the fear of death working upon the <hi>Imagination,</hi> poſſeſſes the <hi>patient</hi> with ſuch a ſenſeleſs fear, that he endeavours not to <hi>Swim</hi> to help himſelf, but yields up his life to the ſury of the <hi>moſt mercileſs Ele<g ref="char:EOLhyphen"/>ment.</hi>
+            </p>
+            <p>But indeed, and this enſuing Treatiſe will clearly demonſtrate unto you, that Man doth, or at leaſt may, naturally <hi>Swim,</hi> better then any Creature; nay, as he is the more Noble, and above all other Creatures; ſo indeed he excels them all in <hi>Swimming,</hi> any
+<hi>Fiſhes</hi> themſelves.</p>
+            <p>I ſhall not deta in you any longer in the <hi>Chanel,</hi> but invite you to <hi>lanch</hi> out into the <hi>Ocean;</hi> I mean from the preface, to
+<pb facs="tcp:60131:5"/>the book it ſelf; from ſtudy to practice in this excellent exerciſe, which here you will plainly ſee ſet before you; and attain both to the pleaſure and profit may come thereby: which I heartily wiſh, as I do yours and my own welfare.</p>
+            <closer>
+               <signed>WILLIAM PERCEY.</signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:60131:6"/>
+            <pb n="1" facs="tcp:60131:6"/>
+            <head>THE Compleat Swimmer: Or, The Art of Swimming.</head>
+            <div n="1" type="section">
+               <head>SECT. 1. <hi>The firſt elegrees and end of Swim<g ref="char:EOLhyphen"/>ming.</hi>
+               </head>
+               <p>BEfore we can attain to the per<g ref="char:EOLhyphen"/>fect Art of Swimming it ſelf, we muſt endeavour to experience our ſelves by many Actions and poſtures on the water: ſo that we may in a word call the firſt degree of Swimming, to bear our ſelves up upon the water; And this may be ſaid to be done two wayes; either by holding up the head onely above the water, or by
+<pb n="2" facs="tcp:60131:7"/>lying more flat upon the water, and bearing up the middle of the body.</p>
+               <p>This beginning being well learned, is more then half the whole Art. And to proceed to declare the ends of ſwim<g ref="char:EOLhyphen"/>ming, they are many: ſome delight here<g ref="char:EOLhyphen"/>in, to cool themſelves from the parch<g ref="char:EOLhyphen"/>ing beams of the Sun, to cleanſe their bodies of ſweat, to whiten and purifie the skin: others uſe this excellent Art for the delight and pleaſure of the ex<g ref="char:EOLhyphen"/>erciſe; others practiſe this Art to for<g ref="char:EOLhyphen"/>tifie themſelves from the danger of wa<g ref="char:EOLhyphen"/>ters: and this is the greateſt uſe there<g ref="char:EOLhyphen"/>of; and therefore in it ſelf ſeemes to challenge a neceſſity for the learning of it: for the chiefeſt end and aim to which this Art is deſtinated, is for the pre<g ref="char:EOLhyphen"/>ſervation of life from the danger of drowning; Swimming being a facultie which Nature hath denyed to man, more then to all others creatures.</p>
+            </div>
+            <div n="2" type="section">
+               <pb n="3" facs="tcp:60131:7"/>
+               <head>SECT. II. <hi>Whether all creatures do naturally Swim.</hi>
+               </head>
+               <p>Nature as an indulgent parent hath infuſed into every creature a ſpecial care of ſelf-preſervation, and Armed them accordingly to defend themſelves: but not every one after the ſame manner, nor againſt all things; much leſſe againſt that incurable ſuffocation, or choaking in water. Now to ſpeak diſtinctly of all beaſts and other creatures which do na<g ref="char:EOLhyphen"/>turally Swim, and which not, is a work of ſome difficulty. But if we conſider the fabrick of Nature in the work of their bodies; what Element moſt abounds in their compoſition, and what motion, place, and action they for the moſt part naturally affect, the matter will be the more eaſily made appear: for every creature followes the ſeeds of its own nature; ſo that whi<g ref="char:EOLhyphen"/>ther Nature directs, thither all things naturally tend and incline themſelves.</p>
+               <p>
+                  <pb n="4" facs="tcp:60131:8"/> Therefore ſuch creatures which Na<g ref="char:EOLhyphen"/>ture hath ordained to inhabit in the Caverns of the earth, are more un<g ref="char:EOLhyphen"/>apt to Swim then others, and do with greater difficulty ſupport themſelves above the waters: as may appear by worms, who being caſt into the water, ſoon go to the bottom. A Toade is of a more large body then a Frogg, and by his form may be thought more apt to Swim then a Frogg; yet becauſe he inhabits in holes of the earth, and is as it were an earthly poiſon repoſed in the Cavernes of the earth, and the Frogg is compoſed of a more light Airy ſub<g ref="char:EOLhyphen"/>ſtance, therefore he more eaſily ſwims on the top of the water; altogether re<g ref="char:EOLhyphen"/>preſenting a man Swimming upon his belly.</p>
+               <p>Snakes and Eeeles, feeding on durt and duſt, and inhabiting therein, do dif<g ref="char:EOLhyphen"/>ficulty Swim on the top of the water: the ſame reaſon may be given why birds of the Air, that are converſant in Airy and mountanous places, do flie more ſwiftly then ſuch as are bred upon the earth, and walk thereupon; as domeſtick fowls.</p>
+            </div>
+            <div n="3" type="section">
+               <pb n="5" facs="tcp:60131:8"/>
+               <head>SECT. III. <hi>What creatures do naturally Swim.</hi>
+               </head>
+               <p>As bodies without life, which partake more of Air and fire then other, are not without difficulty immerged under the waters; as Wood: and thoſe which partake more of earth and water, will not ſwim above the waters; as Lead: So thoſe Animals which by conſtitution of body are hotteſt, do moſt eaſily and ſwift<g ref="char:EOLhyphen"/>ly Swim above the waters.</p>
+               <p>The Lion, a beaſt of the ſun, becauſe he is hot of bloud, ſwift and nimble in members, Swims ſwiftly and ſtrongly: like unto him for Swimming is the dogg, temperately hot: of a more inferiour degree in Swimming, are the Horſe, the Ox, the Aſſe, the Hogg, being conſci<g ref="char:EOLhyphen"/>ous of their own death. And theſe Ani<g ref="char:EOLhyphen"/>mals do not ſo eaſily Swim, becauſe of the natural temperament of their bo<g ref="char:EOLhyphen"/>dies, but becauſe the figure of their bodies is well diſpoſed to Swim.</p>
+               <p>And here a queſtion may ariſe, why a
+<pb n="6" facs="tcp:60131:9"/>Cock Swimmeth not ſo well as a Duck; the one being a bird of the Sun, the other Saturnine: but it may be thus re<g ref="char:EOLhyphen"/>ſolved, that the Cock wanteth ſuch membranes to his feet, as Nature hath indued the Swan, the Duck and Gooſe withall, whereby they direct them<g ref="char:EOLhyphen"/>ſelves in Swimming, and whereby they raiſe themſelves to fly out of the water: ſo that fowls, and worms, and four-footed beaſts, do for the moſt part all know how to preſerve themſelves in the water; but to man onely Nature hath denyed this gift.</p>
+            </div>
+            <div n="4" type="section">
+               <head>SECT. IV. <hi>That man Swimmeth by the help of Nature.</hi>
+               </head>
+               <p>As we have already declared that man doth not altogether naturally Swim as other creatures do, but im<g ref="char:EOLhyphen"/>mediately deſcends towards the bottom; it is partly becaule of the erected and upright figure of a man; going onely with his feet upon the ground, and his body ſtraight up, as Nature hath or<g ref="char:EOLhyphen"/>dained. As an Arrow Armed with an
+<pb n="7" facs="tcp:60131:9"/>Iron head ſoon ſinkes down right, if it be caſt upon the water's but take away the Iron, and it will Swim proſtrate upon the ſuperficies of the water: ſo if man, when he goes into the water, ex<g ref="char:EOLhyphen"/>tend himſelf flat upon the water, whe<g ref="char:EOLhyphen"/>ther it be caſually or skilfully, he may ſupport himſelf from ſinking.</p>
+               <p>And although the whole Art of Swim<g ref="char:EOLhyphen"/>ming may appear in projection, which may eaſily open unto us a perfect pro<g ref="char:EOLhyphen"/>greſſe to the reſt; yet nevertheleſſe (as we ſhall hereafter more plainly teach,) if onely upon his back, fixing his eyes ſteadfaſt up to heaven, without moving hands, feet, or any motion of his body (which is not granted to any four<g ref="char:EOLhyphen"/>footed beaſts) he may ſwim free from any danger of the waters.</p>
+               <p>And thoſe that periſh in the water, do ſtrive with their hands and feet, but they bow down and bend themſelves, ſeem<g ref="char:EOLhyphen"/>ing to comprehend and hold the water in their Arms, and thereby are vio<g ref="char:EOLhyphen"/>lently attracted towards the bottom, which they endeavour to take hold of with theirhands; which none that are skilful in Swimming will do: And
+<pb n="8" facs="tcp:60131:10"/>thoſe that are altogether unlearned and unskilful in the Art of Swimming, when they do ſink to the bottom, they are not long detained there while life remaines, but by a certain Natural reluctancy aſ<g ref="char:EOLhyphen"/>cend again twice or thrice to the top of the waters: which doth manifeſtly teach, that Nature doth aſſiſt men to ſwim.</p>
+            </div>
+            <div n="5" type="section">
+               <head>SECT. V. <hi>A man excels all other creatures in Swimming.</hi>
+               </head>
+               <p>As all other creatures have the gift of Nature in greater or leſſer meaſure to ſwim without the help of Art, which they are incapable of: ſo man by Art, to<g ref="char:EOLhyphen"/>gether with the help of Nature, excels all other creatures in Swimming.</p>
+               <p>But here it may be objected, that fiſhes, whoſe perpetual motion is Swim<g ref="char:EOLhyphen"/>ming, and that in a wonderful manner, are to be excepted.</p>
+               <p>To this we anſwer, that fiſhes are by nature aſſigned to this element; and this is their natural place, wherein they
+<pb n="9" facs="tcp:60131:10"/>live without any reſpiration: but to a man, who gives out and draws in breath, the water is violent and deadly: where<g ref="char:EOLhyphen"/>fore fiſhes being long detained in the Air, or men in the water, die and periſh: ſo that although fiſhes may challenge to themſelves a precel<g ref="char:EOLhyphen"/>lency in Swimming, yet if we conſider this very reaſon of their habitation and nature, fiſhes are very far inferiour to a man who is skilful in the Art of Swim<g ref="char:EOLhyphen"/>ming.</p>
+               <p>For a man may ſwim with his face upwards, downwards; on his right ſide, on his left ſide; ſtand, ſit lie, carry his clothes and other things ſafely, walk in the bottom of the waters: which no fiſhes nor other creature can do.</p>
+            </div>
+            <div n="6" type="section">
+               <head>SECT. VI. <hi>What time of the year is to be ob<g ref="char:EOLhyphen"/>ſerved.</hi>
+               </head>
+               <p>Thoſe that would learn to be perfect and expert in this Art, muſt in their
+<pb n="10" facs="tcp:60131:11"/>progreſs make ſeveral obſervations. And firſt, of the time of the yeer, and the ſeaſon of the month when to ſwim; although if cruel Neceſſity compel, we muſt not then reſpect the time of the yeer, nor the water, but be inured to ſwim in all times, cold or hot, and in a<g ref="char:EOLhyphen"/>ny water: but commodiouſly to chuſe a time to commit our render skin to the water, and to learn Experience in the Art of Swimming, theſe four months are moſt proper,
+<hi>viz. May, June, July, Auguſt,</hi> which yield a calm and tem<g ref="char:EOLhyphen"/>perate Air: although in
+<hi>May</hi> there are ſometimes rigid and ſharp blaſts, and more hurtful then in the other months; yet in that month, and in all the other, there is an Election of time to be taken, and of the dayes; for in the hotteſt months, the water is on ſome dayes more cold and hurtful then in others: yet from the twentieth day of <hi>May,</hi> un<g ref="char:EOLhyphen"/>to the twentieth of <hi>Auguſt,</hi> we may commodiouſly adventure our Bodies in the water.</p>
+            </div>
+            <div n="7" type="section">
+               <pb n="11" facs="tcp:60131:11"/>
+               <head>SECT. VII. <hi>Swimming in the night is not to be uſed.</hi>
+               </head>
+               <p>As the time of the year is to be choſen by him that without hurt to himſelf would learn to ſwim, ſo alſo are the dayes: for the learner ought not to ſwim every day, and not at all in the night: for going into the water by night is altogether to be avoided; Although it hath been much uſed, becauſe in the night the waters ſeem to be more warm then in the day-time; yet dear-bought experience hath made many leave it off.</p>
+               <p>And though the waters ſeem warmer in the night then in the day-time, yet the Sun, the Author of heat, light and life, is abſent, and darkneſs is ſpread over us, and the author of death lurkes in deep waters: And in the night many deadly dangers occur, and that ſud<g ref="char:EOLhyphen"/>denly and unthought of; As boughs, ſtubbs, mudd flaggs, weeds, quick-ſands,
+<pb n="12" facs="tcp:60131:12"/>and infinite other dangers of preſent death: And if you do fall into danger, to whom can you call in the night for help? And beſides theſe dangers, the night it ſelf may be the cauſe of many more: As fumes and thick poiſonous vapours ariſing from the water, hurt<g ref="char:EOLhyphen"/>ful and noiſom vapours in the Air by reaſon of the abſence of the Sun; Toades, ſnakes, and other hurtful poi<g ref="char:EOLhyphen"/>ſonous things abroad. And although the moneth be very hot, yet every day it is not good to go into the water.</p>
+            </div>
+            <div n="8" type="section">
+               <head>SECT. VIII. <hi>It is not good to Swim every day.</hi>
+               </head>
+               <p>The days and hours are alſo to be ob<g ref="char:EOLhyphen"/>ſerved by the diligent learner; the know<g ref="char:EOLhyphen"/>ledge whereof we ſhall now lay down unto you: for there are ſome days and hours more hurtful then all others, and more obnoxious to theſe Aquatical and watery exerciſes, in which the Air is much more raw and crude then in o<g ref="char:EOLhyphen"/>thers, and the water therefore more cold,
+<pb n="13" facs="tcp:60131:12"/>and the exerciſe conſequently more dan<g ref="char:EOLhyphen"/>gerous: which are the days and hours of the Change or New Moon; eſpecially if it happen in earthly or watery fignes, it renders the waters more cold, the Sto<g ref="char:EOLhyphen"/>mack raw and crude; And therefore the body is the more unfit to endure the water, is more unapt to ſwim, and therefore in more danger of drown<g ref="char:EOLhyphen"/>ing: the ſame ſame rule is, when the Moon paſſeth earthly or watery Signes; or the Sun and Moon ſuffering an Eclipſe in any ſuch Signes.</p>
+            </div>
+            <div n="9" type="section">
+               <head>SECT. IX. <hi>When it raines, Swimming is not to be practiſed.</hi>
+               </head>
+               <p>Youth do oftentimes with pleaſure purchaſe enſuing pain and ſorrow; which in this Art to avoid, be careful in obſer<g ref="char:EOLhyphen"/>ving the rules thereof: therefore in cloudy or rainy weather, attempt not to go into the water; for the falling of the rain is alwayes accompanied with a cold and moiſt Air, unprofitable to the body, hurtful to the eyes, and to the whole
+<pb n="14" facs="tcp:60131:13"/>man, bringing many inconveniences.</p>
+               <p>The bankes alſo of the river are dili<g ref="char:EOLhyphen"/>gently to be obſerved, where we in<g ref="char:EOLhyphen"/>tend to go into the water; for there are many fit and commodious places, and many dangerous and diſcommodi<g ref="char:EOLhyphen"/>ous: let therefore ſuch banks be choſen, as are not ſandy, not full of ſoft clay, nor muddy, for therein your feet may ſtick, ſo that you cannot get out: nei<g ref="char:EOLhyphen"/>ther let it be a place growing full of weeds or graſſe; for therein often lurk Toades, Froggs, and other noi<g ref="char:EOLhyphen"/>ſome and hurtful vermine: But chuſe a ſolid, hard, dry, gravelly bank, with green graſs growing in the Meadow by the rivers ſide, flouriſhing with flowers.</p>
+            </div>
+            <div n="10" type="section">
+               <head>SECT. X. <hi>The waters are to be ſearched.</hi>
+               </head>
+               <p>A convenient bank being cho<g ref="char:EOLhyphen"/>ſen, as before is directed; yet before we attempt to go into the waters, the River is diligently to be ſound<g ref="char:EOLhyphen"/>ed and ſearched, that is, that the water
+<pb n="15" facs="tcp:60131:13"/>be clear and clean upon the top, without any graſſe, ſtraw, ſtickes, leaves, froth, or any ſordid and unclean ſuperfluities upon the top: then we are with a care<g ref="char:EOLhyphen"/>full penetrating eye to look unto the bottom, and diligently obſerve whether it be pure and cleane, And that there be no earth or other thing fallen there<g ref="char:EOLhyphen"/>into from above, nor no filth caſt there<g ref="char:EOLhyphen"/>in: And that it be not muddy; for ſuch a place is altogether to be ſhunned: And then we are certainly to inform our ſelves of the depth of the water, of the quantity and quality of the bottom; where it is deep, and where ſhallow: for if it be muddy, and ſhallow in one place, and ſuddenly falling into deep holes in another, or muddy, ſuch a place to the unskilful Swimmer is very <gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>angerous: And if you be a skilful Artiſt in Swimming, yet in waters which are muddy at the bottom, unleſſe the water be very deep, you may often<g ref="char:EOLhyphen"/>times have no cauſe to boaſt of your at<g ref="char:EOLhyphen"/>tempting therein: for if your leggs hap<g ref="char:EOLhyphen"/>pen to ſtick in the mudd, the water will ſoon be a deadly covering for your head. And if one ſhould have ſuch an unhappy
+<pb n="16" facs="tcp:60131:14"/>chance as to ſtick in the mudd, by how much the more he ſtrives to deliver himſelf out, by ſo much the deeper he ſtickes into the bottom; unleſſe happi<g ref="char:EOLhyphen"/>ly the mudd lie but thin, and not very deep, having firm ground underneath; then he having ſtanding for his feet, may raiſe himſelf up: therefore a cleer ſtream, having a firm, hard, ſandy or gravelly bottom, which may plainly be ſeen, is to be choſen by boyes and learners to ſwim.</p>
+               <p>And therefore whenever you intend to exerciſe the Art of Swimming, firſt walk round the banks of the water, be<g ref="char:EOLhyphen"/>fore you adventure into it, diligently obſerving the depth and bottom of the ſame, having to that purpoſe a fiſhing<g ref="char:EOLhyphen"/>rod, or ſome ſuch thing, with a line and a plummet of Lead affixed there unto, where with you may plainly and exactly try the depth of every place: which be ſure to try everywhere, until you are well acquainted with the degrees of the water in every place: And never pre<g ref="char:EOLhyphen"/>ſume to go into any water which you are not acquainted withall, until you are a skilful Swimmer; and ſeldom or
+<pb n="17" facs="tcp:60131:14"/>never venture into any water alone without a tutor or a faithful friend. And theſe things being well underſtood, there remaines onely a few more rules to be obſerved.</p>
+            </div>
+            <div n="11" type="section">
+               <head>SECT. XI.</head>
+               <p>When all things before directed are ſeriouſly and exactly conſidered and performed, then when you are ready to enter into the water, if you ſweat, or did lately ſweat, then looſe your clothes a little, and walk gently and moderately until the ſweat be cooled, and your body in a moderate temper: then when you have diligently obſerved a place to enter in the water, and to come aſhoare convenient; if you can ſwim, leap into the water; but if not, then walk gently in, till you have wa<g ref="char:EOLhyphen"/>ded ſo deep that the water covers your belly, and is up to your middle: then ſpread your body flat upon the waters, and endeavour to ſwim with a good courage.</p>
+            </div>
+            <div n="12" type="section">
+               <pb n="18" facs="tcp:60131:15"/>
+               <head>SECT. XII. <hi>The firſt poſture to be obſerved in go<g ref="char:EOLhyphen"/>ing into the water.</hi>
+               </head>
+               <p>It is to be learned, as we have ſaid before, that the unskilful and ignorant in the Art of ſwimming, ought firſt to go into the waters leiſurely and as it were by degrees; but the more skilful Artiſts have many and various wayes and po<g ref="char:EOLhyphen"/>ſtures to caſt their bodies upon the waters, which are unto them delightful: but let the freſh learners wade with their bodies upright into the waters; keep<g ref="char:EOLhyphen"/>ing the bottom within the reach of their feet.</p>
+               <p>Some going likewiſe gradually into the water, do lie down, ſtretching out their bodies and hands together.</p>
+               <p>Others that are skilful, with their right hand fixed behinde their neck, and ſome with hands claſped there, ſud<g ref="char:EOLhyphen"/>denly caſt themſelves from the bank
+<pb n="19" facs="tcp:60131:15"/>into the waters with their faces down<g ref="char:EOLhyphen"/>wards; and caſting their heels upwards, nimbly turn themſelves ove, and fall with their back upon the water, ſwim<g ref="char:EOLhyphen"/>ming upon their backs; and alwayes ſwiftly leap from the bank when they firſt caſt themſelves into the water.</p>
+               <p>Others running, fall upon their right or left ſide.</p>
+               <p>Others, whoſe poſture is the moſt commendable, with a ſwift motion run to the brim of the River, and jumping up with their bodies, leap into the river with their body ſtraight up, caſting up both their feet, ſo that their buttockes and hinder parts of the thighes do firſt light upon the top of the water. This man<g ref="char:EOLhyphen"/>ner of going into the water is the moſt eaſie, and of all others the moſt ſafe.</p>
+               <p>There is not any of theſe ſeverall poſtures and wayes of leaping into the water undecent or unprofitable, un<g ref="char:EOLhyphen"/>leſs onely one detriment may happen to the more unskilful Swimmer; and that is, caſting himſelf violently into
+<pb n="20" facs="tcp:60131:16"/>the water, he may by a deep ſinking down to the bottom (not having the Art to turn himſelf upwards) be ſuffo<g ref="char:EOLhyphen"/>cated with the waters, by reaſon of the long retention of his ſpirits.</p>
+               <p>But a remedy for this evil is thus to be learned; that is, when firſt you leapin<g ref="char:EOLhyphen"/>to the water, to turn your body deſcen<g ref="char:EOLhyphen"/>ding downwards, into an aſcention up<g ref="char:EOLhyphen"/>wards: and this is performed after this manner; by caſting out your right or left Arm and legg, and ſtriking the water as it were with an oare, you may turn your body, and elevate your ſelf to the top with your Arms and leggs.</p>
+            </div>
+            <div n="13" type="section">
+               <head>SECT. XIII. <hi>The firſt degree of Swimming.</hi>
+               </head>
+               <p>When (as before I have ſaid) thou art familiarly acquainted with the rules of Swimming, and haſt with a ſtaff, as thy guide and leader, found out the depth of the water, and aſſured thy ſelf thereof, then thou maiſt accom<g ref="char:EOLhyphen"/>modate
+<pb n="21" facs="tcp:60131:16"/>thy ſelf to the practice of Swim<g ref="char:EOLhyphen"/>ming: in the proceeding hereunto, you muſt firſt begin as theſe directions in<g ref="char:EOLhyphen"/>ſtruct you.</p>
+               <p>Firſt, go leiſurely into a calm and clear River, then ſpread out your body upon the water with your belly down<g ref="char:EOLhyphen"/>wards, looking upwards with your face, and erecting up your head and neck, bowing your back inwards, by reaſon of thruſting out of your breaſt: then ſtretching ſtraight out your hands be<g ref="char:EOLhyphen"/>fore you, drawing them back again to your breaſt, and likewiſe drawing up your leggs and extending them ſtraight again, uſing this poſture with both Arms and leggs together, you ſhall Swim ſecurely and ſafely, as long as your conveniency ſhall admit of your ſtay in the water.</p>
+            </div>
+            <div n="14" type="section">
+               <head>SECT. XIV. <hi>How to turn your ſelf Swimming.</hi>
+               </head>
+               <p>Thoſe that are skilful in the Art of Chiromancy, teach, that ſuch as are
+<pb n="22" facs="tcp:60131:17"/>born in the night time, have their right Arm ſtronger then their left; but they who are born in the day time, have moſt ſtrength in their left Arm: where<g ref="char:EOLhyphen"/>fore they who do moſt uſe their right hand, let them when they would en<g ref="char:EOLhyphen"/>deavour to turn themſelves in the wa<g ref="char:EOLhyphen"/>ter, ſtretch forth the palm of the right hand by an extenſive declination to<g ref="char:EOLhyphen"/>wards their right ſide, and attract or draw inwards their left hand from the region of the waters, and ſo they ſhall turn their whole body upon the left ſide: and they who would turn on their right ſide, let them do the contrary with their Arms.</p>
+            </div>
+            <div n="15" type="section">
+               <head>SECT. XV. <hi>To ſwim with the face upwards.</hi>
+               </head>
+               <p>It may ſeem an Action very hard and difficult to be performed, for one to ſwim with his face upwards, and con<g ref="char:EOLhyphen"/>tradictory to our Nature; but it is the moſt fair, eaſie and ſafeſt way, and moſt
+<pb n="23" facs="tcp:60131:17"/>agreeable and ſuitable to our Nature; whereof the Poet ſings,</p>
+               <lg>
+                  <l>
+                     <hi>Os homini ſublime dedit Coelum<expan>
+                           <am>
+                              <g ref="char:abque"/>
+                           </am>
+                           <ex>que</ex>
+                        </expan> videri</hi>
+                  </l>
+                  <l>
+                     <hi>Juſsit, &amp; erectos ad ſydera tollere vultus,</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>
+                     <hi>To man God gave looks mixt with Majeſtie,</hi>
+                  </l>
+                  <l>
+                     <hi>And wil'd him with bold face to view the Skie.</hi>
+                  </l>
+               </lg>
+               <p>And it evidently appears, that many do ſuddenly periſh Swimming in the waters by ſudden Accidents happening; this being onely the cauſe, that they endeavour to ſwim contrary to Nature; folding the water as it were with their Arms, they compreſs their Arms cloſe together; and the water thereby pre<g ref="char:EOLhyphen"/>vailing, ſinkes them down to the bottom of the water: but if they did ſwim on their backs, they are ſecure from that danger; and may learn how to repoſe themſelves upon the waters, and to turn themſelves, as common experience
+<pb n="24" facs="tcp:60131:18"/>teaches: therefore all expert Swim<g ref="char:EOLhyphen"/>mers do commonly ſwim upon their backs, and can turn themſelves how and when they pleaſe.</p>
+               <p>Now the way to ſwim after this man<g ref="char:EOLhyphen"/>ner, is thus briefly to be learned; let the body when you are in the water, be erected ſtraight up; or in plain Engliſh thus: raiſe up your body upright in the water, and gently caſt your ſelf back<g ref="char:EOLhyphen"/>wards, lying with your face upwards; and move your ſelf backwards upon the water: raiſe up your breaſt, that it may ſeem to ſwell above the ſuperficies of the water: let your whole body be line<g ref="char:EOLhyphen"/>ally erected from the head to the foot; exerciſe and move your ſelf with both your leggs, ſtretching out and drawing in both your thighes, reſting both your hands upon the bottom of the belly: and in this poſture ſteere your courſe backwards, that is, with your head for<g ref="char:EOLhyphen"/>wards.</p>
+               <p>This is the beſt and ſureſt way to ſwim, and the moſt eaſie; for a man may ſwimm more eaſie on his back then on his belly, and much lon<g ref="char:EOLhyphen"/>ger: neither is he that ſwims on his
+<pb n="25" facs="tcp:60131:18"/>back, troubled with guſts of water, which will oftentimes flie forceably in<g ref="char:EOLhyphen"/>to the mouth of him that ſwims on his belly, and many times the waves beat againſt his head: and he that ſwims on his belly is in more danger of weeds then he that ſwims on his back, al<g ref="char:EOLhyphen"/>though at firſt it may ſeem a little more difficult to the learner.</p>
+               <p>But I muſt admoniſh the learner, when he firſt begins to ſwim, and would try this poſture of the exerciſe, let him beware that he do not deceive and be a thief to himſelf; that is, that he do not go about to elevate his body, and caſt up one foot, the other touching the bottom: for this argues but the part of a timerous and fearful mind, and a deceiver of himſelf: neither let him lift up his knees much, nor preſſe down his limbs at all; but let him ſtretch out his whole body lineally, and then he may ſwim backwards ſwiftly and chear<g ref="char:EOLhyphen"/>fully.</p>
+               <p>If he be minded to turn himſelf, he may do it artificially and nimbly, by holding ſtill one legg, and ſtriking the other down into the water, either the
+<pb n="26" facs="tcp:60131:19"/>right or left, according to that ſide which he is minded to turn upon.</p>
+               <p>But in your circumvolution or turn<g ref="char:EOLhyphen"/>ing about, you ought (as we have often before warned) to be very careful to ſhun the danger of reeds, ſtakes, weeds, mudd, ſtones, or the like; the danger of them is not ſmall, you being once enſnared amongſt them, unleſſe you be the more careful and skilful.</p>
+               <p>But to eſcape and avoid theſe miſ<g ref="char:EOLhyphen"/>chiefes, there are many things to be uſed, which are very ſafe and decent; the firſt whereof followes.</p>
+            </div>
+            <div n="16" type="section">
+               <head>SECT. XVI. <hi>Maximes</hi> in <hi>Swimming.</hi>
+               </head>
+               <p>
+                  <hi>To Turn with both leggs and arms up<g ref="char:EOLhyphen"/>wards.</hi>
+               </p>
+               <p>This is done by proceeding from the right ſide to the left, and from the Regi<g ref="char:EOLhyphen"/>on; and it is done with the like decli<g ref="char:EOLhyphen"/>nation of the oppoſite hand, and by in<g ref="char:EOLhyphen"/>clination of the body and head, and the
+<pb n="27" facs="tcp:60131:19"/>turning about of both thighs together, almoſt in the ſame manner as the firſt mentioned manner of turning is to be acted; onely this requires a more nim<g ref="char:EOLhyphen"/>ble and ſpeedy action, and muſt be done with the greateſt Agilitie of the moſt Active Swimmer: for this muſt be done as it were in a moment; not after the manner of a common converſion or turning about: we turn our ſelves about, laterally or ſide-ways; But if one would ſuddenly turn to the left ſide, it is done after this manner: ſtretch down the right thumb towards the bottom, ſtretching the hand ſomthing bending, ſtriking the water ſide-wayes underneath; and with the left hand open, and the fingers joyn<g ref="char:EOLhyphen"/>ed together, turning himſelf backwards, and attracting the water ſuddenly with the body and face, caſts you on the left ſide: but if you would with the like expedition turn on the right ſide, uſe the ſame order onely on the contrary hand. The uſe of this converſion or turning is this, chiefly to ſhun and eſcape ſudden dangers: As, if one ſhould be Swimming, and a ſhip ſhould ſuddenly before he deſcryes him, be flying under
+<pb n="28" facs="tcp:60131:20"/>Sail, in danger to run over him: the like danger may he be in of Boats unad<g ref="char:EOLhyphen"/>viſedly coming too near him. Likewiſe if there ſhould be any Lions, Bears, or fierce dogs lurking in the River; or if any other ſudden danger ſhould violent<g ref="char:EOLhyphen"/>ly aſſault us; by this only quick turning about, we may eſcape them all: and if any other be in the water in the danger of drowning, by this way we may com<g ref="char:EOLhyphen"/>modiouſly help him, and without dan<g ref="char:EOLhyphen"/>ger to our ſelves.</p>
+               <p>But let them that uſe this way, be<g ref="char:EOLhyphen"/>ware that the water be not too ſhallow, leſt it hurt their thighes, and the ſpine of their backs, to which it is ini<g ref="char:EOLhyphen"/>mical. Here followes another poſture, not ſo neat, but much more ſafe.</p>
+            </div>
+            <div n="17" type="section">
+               <head>SECT. XVII. <hi>A Converſion or turning like a bell.</hi>
+               </head>
+               <p>We give unto this kinde of poſture the name of turning like a bell, becauſe it is performed by the ſole motion of the body, without the diſcerning of any
+<pb n="29" facs="tcp:60131:20"/>latitude thereof, as a bell turns about when he is Rung. This converſion there<g ref="char:EOLhyphen"/>fore is thus performed: if you ſwim on your belly, ſuddenly draw up your feet, and immediately ſtrike them both down<g ref="char:EOLhyphen"/>wards, and caſt your face upwards: on the contrary, if you ſwim on your back, if you turn and extend your leggs and thighes perpendicularly downwards, you are immediately turned to ſwim on your belly; in this courſe proceeding contrary to the former. But if you ſwim on your belly, draw up both your leggs together, and ſtretch them both downwards, caſting up and ſpreading up both your Arms, you caſt your ſelf upon the water backwards, and ſo ſwim with your face upwards: and when you ſwim upon your back, and would turn about upon your belly, ſuddenly clap your heels to your Arſe; that is, nimbly caſt your feet backwards to your but<g ref="char:EOLhyphen"/>tockes, and ſtretch them ſtraight down towards the bottom, raiſing the body ſtrongly with the motion you caſt your ſelf upon your belly.</p>
+               <p>This Action is of very excellent uſe in a narrow Creek of water, or narrow
+<pb n="30" facs="tcp:60131:21"/>ſtream or rivulet, where we may turn our ſelves without hurting of our feet againſt the bankes: but be careful that the ditch be deep enough, and eſpecial<g ref="char:EOLhyphen"/>ly free from weeds and mudd; for very many excellent and skilful Gentlemen, when they have been Swimming, have periſhed by being fettered in the liga<g ref="char:EOLhyphen"/>ments of weeds, or cleaving and ſtick<g ref="char:EOLhyphen"/>ing in a muddy bottom. Therefore thoſe that ſwim ſtrongly and with a couragious Agilitie, do frequently uſe another poſture in turning them<g ref="char:EOLhyphen"/>ſelves, which is called Circumvolu<g ref="char:EOLhyphen"/>tion.</p>
+            </div>
+            <div n="18" type="section">
+               <head>SECT. XVIII. <hi>Circumvolution, or turning about in the water.</hi>
+               </head>
+               <p>When we ſwim after the uſual man<g ref="char:EOLhyphen"/>ner, with our body extended plain upon the water, we would turn and carry our ſelves about with an eaſie habit of our body, and be circumvolved upwards, downwards, to the right ſide, to the
+<pb n="31" facs="tcp:60131:21"/>left ſide ſucceſſively, and many wayes (like the Axletree with the whole globe) the manner whereof may be more plain<g ref="char:EOLhyphen"/>ly and eaſily demonſtrated by geſture then by words. But as I have begun, I ſhall demonſtrate and ſhew unto you the practiſe hereof by a plain diſ<g ref="char:EOLhyphen"/>courſe.</p>
+               <p>If you would begin your Circumvolu<g ref="char:EOLhyphen"/>tion, or to turn your ſelf about from the left ſide; when you ſwim on your belly with the largeſt extention of your body, ſtretch downwards your right Arm and hand as deep as you can, daſhing or preſſing the water with the palm of your hand, raiſing up your head, breſt, and left ſide of your body with your face upwards, ſuppreſſing down your left thigh, and raiſing up your right hand to the top of the waters, carrying your ſelf about from the left ſide to<g ref="char:EOLhyphen"/>wards the right; oftentimes turning or rowling your ſelf about upon the water, either from the right hand to the left, or from the left towards the right con<g ref="char:EOLhyphen"/>trariwiſe.</p>
+               <p>As for example, that I may the better explain it unto you; when one would
+<pb n="32" facs="tcp:60131:22"/>turn himſelf about from his belly to his back, ſtretching out his right Arm with his largeſt extenſion, that is, as far as he can, declining it downwards towards the bottom of the water, lifting up his head towards his left ſide, that he may ſwim with his face upwards; let him Elevate or lift up his right thigh, and depreſſe or caſt down his left, with one and the ſame Action; which being often and nimbly performed, the exer<g ref="char:EOLhyphen"/>ciſe will appear eaſie and delightfull, and alſo very uſefull and profitable, to free ones ſelf from any weeds, ſtraw, or other baſe and ſordid filth upon the top of the water, which we deſire to cleer our ſelves from; As alſo, if one ſhould be infeſted and troubled with Gnats or ſwarms of flies hovering and flying about us, this action is very uſe<g ref="char:EOLhyphen"/>ful; for by the percuſſion or daſhing of the water with our motion, we drive them away.</p>
+            </div>
+            <div n="19" type="section">
+               <pb n="33" facs="tcp:60131:22"/>
+               <head>SECT. XIX. <hi>A quadrupatite or four-fold percuſsion or ſtriking of the water.</hi>
+               </head>
+               <p>This poſture is called Quadrupartite or four-fold, becauſe we do beat or daſh the water with four parts of the body ſucceſſively; and with a very ſwift and nimble Action and motion, which is af<g ref="char:EOLhyphen"/>ter this manner, with the hands and feet together, but they are not all to be lifted up and moved together with an equal motion at one and the ſame time out every one of them ſucceſſively one after another; as ten times the right foot, twenty times the right hand; thirty times the left foot, and forty times the left hand: and this is to be done with the greateſt Agilitie and nimbleneſs of body as poſſible may be; And this is done by ſtretching out the body <gap reason="illegible" resp="#OXF" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>
+                  <gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>le<g ref="char:EOLhyphen"/>vating or lifting up the breaſt, an<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> ex<g ref="char:EOLhyphen"/>tending and ſtretching out the Arms and leggs, partly ſide-wayes and plainly as far as you can.</p>
+               <p>
+                  <pb n="34" facs="tcp:60131:23"/> Uſe this but ſeldom; and when you do, let it be either for delight, or when the fleas bite your face ſhrewdly: for it cauſeth a ſound under the water, that very much offends the head.</p>
+            </div>
+            <div n="20" type="section">
+               <head>SECT. XX. <hi>To Swim on the back with the hands and feet upward.</hi>
+               </head>
+               <p>Although the ſhaking about of the hands be of little uſe to thoſe that ſwim on their back, yet if you intend to ſwim ſwiftly, you muſt uſe it both with feet and hands: 'tis uſed by thoſe that ſwim on their belly, and thoſe that ſwim on their back too, when the Swimming for<g ref="char:EOLhyphen"/>ward on the back is more ſwift: this is a very rapid motion indeed. They that ſwim on their back, begin the motion of their hands thus; firſt they caſt their han<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> backward behind their head, and whilſt they are extended or ſtretched forth, the palms of their hands being open toward their ears at their extention when they are ſtretched forth, but at the
+<pb n="35" facs="tcp:60131:23"/>extremitie or later end of this exten<g ref="char:EOLhyphen"/>tion, their hands being turned out<g ref="char:EOLhyphen"/>wards, opening the A ms in the ſame manner, and withdrawing them again, ſtriking out the feet, as they uſe to do, you muſt endeavour to leap up in this manner.</p>
+               <p>The uſe of this, is to be put in practiſe when we ſwim againſt a ſwift and rough Tyde, and is the moſt diſagreeing of all to the ſucceeding way of Swim<g ref="char:EOLhyphen"/>ming.</p>
+            </div>
+            <div n="21" type="section">
+               <head>SECT. XXI. <hi>Retrogradation, or Swimming back<g ref="char:EOLhyphen"/>ward.</hi>
+               </head>
+               <p>This is done when Swimming on your back, you after the ſame manner almoſt, lying on your back ſtretched, you go back, ſtriking firſt with the heels, and then puſhing forward with the head: but I will clear it to you thus; lying down, ſtretchtforth as I told you before, their breaſt ſtanding up ſweld as 'twere, ſo that the very back will be hollow by
+<pb n="36" facs="tcp:60131:24"/>reaſon of this tumour of the breaſt, holding your hands (not according to the received opinion, on the privities, but the bottom of the belly; for elſe you'll do the Ladies an injury, and not ſatisfie their longing deſire) upon the bottom of the belly; lifting firſt one Legg up, and then the other ſucceſ<g ref="char:EOLhyphen"/>ſively, and ſo letting them down again, ſo that after they have come to the top of the water, being ſtrongly drawn to<g ref="char:EOLhyphen"/>ward the hams, may force us forward. You may make uſe of this Swimming backward, for it is both graceful and ne<g ref="char:EOLhyphen"/>ceſſary; you ſwim on your back, <hi>viz.</hi> when being in deep and large rivers, and if wearied out, you may eaſe your ſelf by this kind of ſlight, without bottom, or reſt, without the help of any one, or trouble, which is to be eſteemed the chiefeſt part of delight; for in ſhallow water you may go backward playing in the top of it, and it adds much pleaſure to the party.</p>
+            </div>
+            <div n="22" type="section">
+               <pb n="37" facs="tcp:60131:24"/>
+               <head>SECT. XXII. <hi>The ſide-turn.</hi>
+               </head>
+               <p>There is a great deal of difference be<g ref="char:EOLhyphen"/>tween a circumvolution, or turning round, and this down-turn. Although it ſeems to be in the ſame form, yet if you make a more exactſcrutiny or ſearch into the buſineſs, the one is done by mo<g ref="char:EOLhyphen"/>tion, the other by a pleaſant reſt; as for example: by that, you lift up your body ſwiftly and often, lifting your Legg out of the water, and then ſtriking of it down again with a force. Whilſt you uſe this, you muſt lie on your back ex<g ref="char:EOLhyphen"/>tended, or ſtretched out, your Elbo's cloſe to your ſides, ſtriking your Arms ſtraight out from your body, your leggs being ſeparated a foot's diſtance one from the other, the ſoles of your feet tending toward the bottom, lying on the water, now ſhew the right, then the left ſide, as often as you pleaſe: ob<g ref="char:EOLhyphen"/>ſerve, that whilſt you lift up your right ſide, you muſt extend or ſtretch forth
+<pb n="38" facs="tcp:60131:25"/>the left hand laterally, or ſidewayes, and preſs down your feet a little; but you muſt draw or attract to your ſelf your left hand and foot.</p>
+               <p>The uſe hereof is very frequent, and extraordinarie profitable; for he that ſwims on his back, is oftentimes in dan<g ref="char:EOLhyphen"/>ger, either of running againſt the bank, or Swimming in weedy places, or other dangers that may evene or happen, if he be not extraordinarie well skill'd in this kind of circumvolution or turning. Therefore be circumſpect, that when you try this feat often, it be in a place free from weeds; leſt you be ſo entangl<g ref="char:EOLhyphen"/>ed, that you ſcarce (if ever) get out again ſafe. If by ſtrongly Swimming forward you ſtrike into ſome place or other, that is ſpread with thick high weeds; Then if you would at once eſcape ſecure, and look about you without danger, let them practice this following piece of Agility or nimbleneſs, termed</p>
+            </div>
+            <div n="23" type="section">
+               <pb n="39" facs="tcp:60131:25"/>
+               <head>SECT. XXIII. <hi>Circulation or turning round.</hi>
+               </head>
+               <p>So termed, becauſe as that foot that is plac'd for to make the cirle by is im<g ref="char:EOLhyphen"/>moveable, but the other is wheel'd round till it be terminated in the ſame that it began; ſo they that uſe circulation or turning round in the water, they beat the water with their feet, and wheel round about, whilſt the head remaining as it were in the middle, makes the Cen<g ref="char:EOLhyphen"/>tre: the firſt way of doing this, is, you muſt lie on the water as when you ſwim on your back; if you would turn from the right hand to the left, depreſs or bend down a little your right ſide toward the bottom; then with both your feet firſt on the left, then on the right ſide, being alternatively and ſuc<g ref="char:EOLhyphen"/>ceſſively lifted out of the water toward the left hand, at every motion proceed<g ref="char:EOLhyphen"/>ing the length of a foot; and thus your head being fixed, and reſting in the Centre, there is made a near turning,
+<pb n="40" facs="tcp:60131:26"/>marking out a frothy circle on the ſur<g ref="char:EOLhyphen"/>face of the water.</p>
+               <p>The uſe of this circulation or wheel<g ref="char:EOLhyphen"/>ing round is both great and frequent, eſpecially, if the ſuperficies or top of the water be covered with a frothy ſcum, or any old ſtraw, or any other kind of filth that is offenſive, and adheres or ſticks to the head or neck of the Swim<g ref="char:EOLhyphen"/>mer; all theſe diſcommodities this cir<g ref="char:EOLhyphen"/>culation drives away immediately, and makes the River clear to his ſight. He that ſports upon the water in this man<g ref="char:EOLhyphen"/>ner, muſt have a care of lifting his legg too high, leſt his head ſink; in like manner he muſt beware of ſtriking the water too hard with his feet; for it cauſeth a ſound in the water, that im<g ref="char:EOLhyphen"/>mediately bringeth the headach; for the avoiding of this evil, the following circumduction or turning round is moſt proper, <hi>viz.</hi>
+               </p>
+            </div>
+            <div n="24" type="section">
+               <pb n="41" facs="tcp:60131:26"/>
+               <head>SECT. XXIV. <hi>The perpendicular converſion or turn<g ref="char:EOLhyphen"/>ing, being upright in the water.</hi>
+               </head>
+               <p>That is called prependicular, or ſtraight, when a man ſtands upright in the water, his head and body ſtraightly raiſed, gazing upon the ſtanders by, and ſpeaking to them with much grace, and facility. When you ſtand upright in a deep water, you muſt move your leggs and feet underneath: And if you would begin from the right ſide, ſtirring firſt the waters with the ſole of your feet, and your nimble fingers, then after the ſame manner almoſt muſt the whole habit and poſture of your body incline ſucceſſively to the left: then muſt you covertly draw as it were the waters to you, and ſtrongly too; the left hand firſt attracting or drawing them, then the right hand ſucceſſively receiving them, and repelling or beating them back again.</p>
+               <p>Conſider how much commoditie or
+<pb n="42" facs="tcp:60131:27"/>profit reſults to a man from this ex<g ref="char:EOLhyphen"/>erciſe: When as you are in an unknown River, or in the vaſt Ocean, (if ſo it pleaſe the heavenly Powers) being well exerciſed in this trick, lifting up your head above the vaſt waves, you may look out to find the ſafeſt ſhoar, and moſt free from the Enemy, to land at: Beſides, if you are eſcaped out of violent hands, and your Enemy proſecute and perſe<g ref="char:EOLhyphen"/>cute you with ſtones, arrows, or other things of the like nature; you may by the help of this perpendicular or ſtraight deſcent, in the twinkling of an eye per<g ref="char:EOLhyphen"/>ceive from whence they come, and avoid them.</p>
+               <p>Yea farther, if you happen to have ſome controverſie or skimiſh with man or beaſt in the water, ſtopping or hinder<g ref="char:EOLhyphen"/>ing you, being erected or raiſed up in this manner, you may fight ſtoutly and nearly. But you muſt have a care that it be not clayie ground, for elſe it may coſt you your life. Many other neat and pleaſant tricks and Agility are practiſed in theſe converſions or turnings, that cannot be truely exerciſed, but by thoſe that are expert Artiſts, and have a ſtout
+<pb n="43" facs="tcp:60131:27"/>and undaunted courage: and he that does them with dexterity, and can ex<g ref="char:EOLhyphen"/>erciſe them all as eaſily as he can ſee the Sun, all perſons will call him <hi>Nep<g ref="char:EOLhyphen"/>tunes Nepheus,</hi> The Captain of the Sea; and will never ceaſe filling their mouths with his praiſe.</p>
+            </div>
+            <div n="25" type="section">
+               <head>SECT. XXV. <hi>To ſwim forward with the palms of the hands joyned together.</hi>
+               </head>
+               <p>This hath deſerved the firſt place, be<g ref="char:EOLhyphen"/>cauſe it is moſt a greeable, or like to that ſimple ordinary way of Swimming on the belly, joyning hand and wriſts toge<g ref="char:EOLhyphen"/>ther, and contracting or ſpeading them even to the breaſt; Then you muſt ex<g ref="char:EOLhyphen"/>tend or ſtretch your hands and the palms of them in the forementioned manner and order, both thumbs erected or ſtanding up, the tops of the fingers partly tending downwards, till they come to the very top of all the water.</p>
+               <p>The uſe of this is not onely grace<g ref="char:EOLhyphen"/>ful, but beſide that, if perchance a
+<pb n="44" facs="tcp:60131:28"/>heap of ſtraw ſhould meet you Swim<g ref="char:EOLhyphen"/>ming (that oftentimes cauſes a great deal of trouble and danger) this ſtrong ex<g ref="char:EOLhyphen"/>tenſion or ſtriking out of the hands penetrates or pierceth it immediately, and diſperſeth it on each ſide: 'twill help you in the ſame manner, when you fall into any ſandy place, and makes way for you to get out, eſpecially if he have a care of ſeparating or ſtriking his hands too wide the one from the other being in this ſtraight. Nor is this enſuing ſlight impleaſing, <hi>v. z.</hi>
+               </p>
+            </div>
+            <div n="26" type="section">
+               <head>SECT. XXVI. <hi>Swimming neither on back nor belly.</hi>
+               </head>
+               <p>'Tis ſtrange any man ſhould ſwim, and yet neither on his back nor belly; If you would ſwim ſo, you muſt ſtrike for<g ref="char:EOLhyphen"/>ward either with your ſhoulder, Arm, thigh, or Legg, right or left, lifted or raiſed up either on the right or left ſide, and contiguous or touching the top of the water. When you ſwim on your
+<pb n="45" facs="tcp:60131:28"/>back, or belly, preſſing down the left hand at once, but lift up your right ſide in Swimming, and that being extended or ſtretcht; And while you lie thus, let your left hand look to the extenſion, not dilating or ſpreading abroad the motion, or preſſing it down to the bot<g ref="char:EOLhyphen"/>tom, but extending or ſteering in a ſtraight line, and contracting that which lies parallel or level with the water.</p>
+               <p>Beſides the delight of the mind that the party Swimming hath, there is much profit or uſe; for he may ſwim to any ſhoar, and view it all the time he is Swimming, without the motion of either hand or foot. 'Tis poſſible</p>
+            </div>
+            <div n="27" type="section">
+               <head>SECT. XXVII. <hi>To ſwim on the belly without the help of either hand.</hi>
+               </head>
+               <p>And that very eaſily, as you may hear by this following relation: The breaſt being ſtretched out forward, lift up your neck, or rather raiſe it upright, caſting your hands behind your neek or back,
+<pb n="46" facs="tcp:60131:29"/>being folded together backward, ſtriking your ſelf forward with your feet and leggs, as you do when you ſwim the common way on your belly.</p>
+               <p>The end of Swimming in this manner and intent, is, that if the cramp ſhould ſeize upon any one unluckily, or if you be compell'd to betake your ſelf to the water, with your hands fettred behind you, being in danger of your life; one would imagine it more convenient and fit, to try this on the back, then the belly: but it is not, becauſe, when you ſwim on your belly, you foreſee your way, and view it all over: but when you ſwim on your back, you cannot, unleſs it be by the uſe of converſion or turning about: beſides, if in Swimming your Arms ſhould be tired, that you may the better in this caſe keep your ſelf up, you muſt ſwim on your belly, and</p>
+            </div>
+            <div n="28" type="section">
+               <head>SECT. XXVIII. <hi>Hold your left foot in your right hand.</hi>
+               </head>
+               <p>Variety much affecteth a learner; and
+<pb n="47" facs="tcp:60131:29"/>this way cannot but be a moſt delight<g ref="char:EOLhyphen"/>ful one; It will be very pleaſant and uſeful for you in Swimming on your belly, to lift up your left legg, and draw it to your buttocks, and ſtretching forth at the ſame time your right hand on your bottocks, and holding your right foot, and that faſt, ſtriking out ſtill with your left hand and legg together, or the contrary.</p>
+               <p>This Agility or piece of nimbleneſs is very uſeful againſt the cramp, and ſafe; eſpecially, if one of the feet be extangled in the weeds; for he that is skil'd in this feat, can ſoon pull away the weeds from his feet, and break them; but if the weeds that grow in the bot<g ref="char:EOLhyphen"/>tom be more thick then ordinary, you muſt uſe variety of Swimming, and ſtrive and endeavour</p>
+            </div>
+            <div n="29" type="section">
+               <pb n="48" facs="tcp:60131:30"/>
+               <head>SECT. XXIX. <hi>To Swim like a Dog.</hi>
+               </head>
+               <p>Think not this way hard; for many do as it were ignorantly fall upon this kind of Swimming that is uſed by four-footed creatures, and are able to bear themſelves up ſo in high water, before ever they learn't to ſwim.</p>
+               <p>This you may do, if lifting up and depreſſing or letting down a little both your hands by turns, and ſo likewiſe your feet; drawing the water to you with theſe, and hiding them with theſe, you may leap up as it were; firſt uſing your right hand and legg, then your left hand and legg, alternately ſucceeding or changing by courſe.</p>
+            </div>
+            <div n="30" type="section">
+               <pb n="49" facs="tcp:60131:30"/>
+               <head>SECT. XXX. <hi>The percuſsion or ſtriking of the water, to turn in the water.</hi>
+               </head>
+               <p>It is a queſtion worth the diſcuſſing, for a man to know whether he ſtrike the water with the hand or Legg: without doubt (take this for the reſolution) 'tis with the right; or left legg, and the way thereof is ingenious and recreative: this is performed ordinarily when Swim<g ref="char:EOLhyphen"/>ming nearly upon the back the legg be<g ref="char:EOLhyphen"/>ing lifted either up or down, every ſtroke the waves are ſtruck, drops are raiſed on high, and bedew them: they that are more expert in't, go about it with the chin depreſſed or hanging downward. But if they endeavor to exerciſe it with more grace, then every ſtroke is ſuc<g ref="char:EOLhyphen"/>ceeded with a percuſſion or ſtriking of the waters on high, either proceeding from the right or left hand, together with the circumvolution or turning round of the whole body: This is a very neat trick, and the moſt noble of all
+<pb n="50" facs="tcp:60131:31"/>that have been forementioned. Now if you would exerciſe and perform this feat, you muſt lie on your back in the water, with your body and leggs extended, the breaſt being puft up or elevated, with both hands open, tending towards the bottom of the waters, and partly lifting up the body (whilſt you jerk out the leggs) that is in the water: But if you intend to turn your ſelf with a blow on the water, then if you lift the leg out of the water, you muſt depreſs or force it down of a ſudden, lifting up in the ſame inſtant your left, turning your whole body at once with that onely action.</p>
+               <p>This Agilitie makes one ſwim more neatly, and with leſs labour; and</p>
+            </div>
+            <div n="31" type="section">
+               <head>SECT. XXXI. <hi>The ſporting with one foot.</hi>
+               </head>
+               <p>Theſe neat geſtures and good grace in Swimming, ſeem to be more pleaſant then profitable; nay, there are none of theſe, but in times of danger (as in Swimming there is very much) af<g ref="char:EOLhyphen"/>ford more pleaſure to him that wanton<g ref="char:EOLhyphen"/>ly
+<pb n="51" facs="tcp:60131:31"/>plays ſo, then uſe in freeing from dan<g ref="char:EOLhyphen"/>ger; therefore this diſcourſe ſhould be the more grateful to thee, being there is in it a mixture both of pleaſure and pro<g ref="char:EOLhyphen"/>fit: Theſe playing with one foot (that I am now mentioning) though it ſeems to confer much to the pleaſure of the ſwim<g ref="char:EOLhyphen"/>mer, becauſe that they that have this trick, ſeem to riſe with a grace, triumph<g ref="char:EOLhyphen"/>ing as it were; yet it hath its deſtinated uſe and commodity perpetually ſuc<g ref="char:EOLhyphen"/>ceeding it, as I will manifeſt it by word and example: They that affect this way while they ſwim, look upon their feet, lifted up out of water, now the right, then the left legg or foot: in their pro<g ref="char:EOLhyphen"/>ceeding they are tumbled up and down, triumphing as it were, wheeling their leg round three or four times in the Air, together with a ſettled countenance, the chinbeing bowed to the neck. Theſe ſeem an eaſie and pleaſant ſport, but it is very difficult, unleſs firſt with your breaſt ſtrutting out, with the palm of your hands under the water towards the ground, treading the water with the other legg at the ſame time: all which things require a ſtout heart, elevating it
+<pb n="52" facs="tcp:60131:32"/>ſelf: for while the legg is lifted up, the head is implunged into the water. This is a hard, though neat trick, and helps much to the ſhaking out of their feet that may be entangled in weeds or any other incumbrances.</p>
+               <p>Being terrified with this difficulty, that you may not deſiſt in the middle of your courſe, this pleaſant ſubſequent way will facilitate it.</p>
+            </div>
+            <div n="32" type="section">
+               <head>SECT. XXXII. <hi>The ſhewing of the feet, &amp;c. Sailing.</hi>
+               </head>
+               <p>Any one may without touching ground ſhew both his feet on the top of the waters: This indeed is common and very eaſie; nor can they onely ſtand, but ſwim forward, ſhewing both their feet; and the manner of it is thus: he that deſires to do it lies on his back (the con<g ref="char:EOLhyphen"/>trary is uſed in all other ſhewing of the feet) bending his back downwards, removed as it were from his hands on his belly, whilſt the palms of his hands are moved to and fro, keeping up his
+<pb n="53" facs="tcp:60131:32"/>body by the rowling of the waters, his feet being lifted up on the top of the water.</p>
+               <p>The uſe of this action in the water, is this: after you have ſwom, having ob<g ref="char:EOLhyphen"/>tained this art in a ſufficient time, you may ſee and look ſteadily on your feet, whether they be clean enough, white enough, or waſhed enough, although you chance to be in never ſo deep a place: and as far as I can gueſs, the feet excel the head in Agility; for the head is the ſtable repoſitory of Counſel: and yet if our diſcourſe ſhould run from the heel to the head, we ſhould view one geſture the moſt excellent of all, proper and peculiar to the head, which is</p>
+            </div>
+            <div n="33" type="section">
+               <head>SECT. XXXIII. <hi>The ſuſpenſion or holding up of the Chin.</hi>
+               </head>
+               <p>Whilſt I am ſilently endeavouring to treat about the holding up of the chin, I am at a ſtand; for as the head ſtand<g ref="char:EOLhyphen"/>ing
+<pb n="54" facs="tcp:60131:33"/>on a high place, is more eminent then the other parts of the body; ſo really this faculty is far beyond all the reſt; and if it be neatly and artificially upheld, it goes beyond Art it ſelf: for one that is skilful in this way, ſtands upright without moving, though he be in the deepeſt waters, ſinking. Wherefore if the reſt of our Arguments were obſcure, yet this one facility would evince it ap<g ref="char:EOLhyphen"/>parently, that a man by nature is apt to ſwim,
+<hi>viz.</hi> if he will lift up his head; This is done after this manner; when we ſwim on our backs, after the laſt ſtroke of hands and feet, we reſt, lying ſo on the water; Then, whilſt the leggs are ſtretch'd forth as before, ſink down together: when they come perpendicu<g ref="char:EOLhyphen"/>larly to the ground, you muſt bend your leggs toward your knees; your breaſt muſt be puft up, your Arms (both the backs of your hands laid on your back, towards your ſhoulders) muſt be ga<g ref="char:EOLhyphen"/>thered up, or to be caſt laterally and equally on each ſide, your fingers cloſe, with the palms of your hands towards the bottom, looking upwards with your countenance as much as poſſible.</p>
+               <p>
+                  <pb n="55" facs="tcp:60131:33"/> This is a wonderful way, and ſomtime profitable: when in the deep of winter by accident you paſſe over ſome pond, the brittle ice breaks, this is the onely remedy: if in dead time of the night you be compel'd by neceſſitie to paſſe over a River, and your enemies follow you in a wherry; you may ſtand ſure by the help of this Agility, even in the deepeſt waters, without moving them, and ſo obtain your deſire; this is ſuc<g ref="char:EOLhyphen"/>ceeded by</p>
+            </div>
+            <div n="34" type="section">
+               <head>SECT. XXXIV. <hi>Treading of Water.</hi>
+               </head>
+               <p>By the benefit of this, we ſtand and move upright in the water, without any motion of the hand: and this (that I may be brief) is done by the lifting up of the feet circularly one after the other, the ſole of the foot being flat towards the bottom. The uſe of this cannot but be various: whilſt you tread water ſtrongly and artificially, you may look about you with eaſe, diſcharge a
+<pb n="56" facs="tcp:60131:34"/>Gun, ſhoot a bow, or brandiſh a ſword above the higheſt waves, and have the free uſe of your hands. But let him that treads water often, have a care of going into ſhallow, muddy, or weedie Rivers; for 'tis deſperate and dangerous; be<g ref="char:EOLhyphen"/>cauſe the legs may ſomtimes be caught in the weeds: if this happen, you muſt preſently make uſe of</p>
+            </div>
+            <div n="35" type="section">
+               <head>SECT. XXXV. <hi>The contradictory Swimming on the back.</hi>
+               </head>
+               <p>So termed, becauſe that as words that do much contradict one another, and are diametrically oppoſite: ſo this Activity proceeds from the contra<g ref="char:EOLhyphen"/>dictory poſition of the members; theſe members are either the right hand, left foot, or the left hand and the right foot: after this manner, when you ſwim on your back, you take hold of your left foot with the right hand, and the contrary ſomtimes, quickly jerking the legg up or down.</p>
+               <p>
+                  <pb n="57" facs="tcp:60131:34"/> If the weeds ſtick to your legs when you ſwim on your back, they are ſoon ſhaken off by this artifice. But if it fall out ſo infortunately, that whilſt you ſwim on your back both your leggs are faſtned together with ſome baſe weeds, in this caſe</p>
+            </div>
+            <div n="36" type="section">
+               <head>SECT. XXXVI. <hi>Connex Swimming, or Swimming croſs leg'd,</hi>
+               </head>
+               <p>Helps much and often, and preſerveth life; but 'tis difficult to ſwim over the water with hands and feet tied athwart, as it were, one croſs the other; but it may be happily atchieved; for when the legs are ſo croſs'd, lay your Arms enfolded one within the other on your breaſt; Then ſtretching the body, you move for<g ref="char:EOLhyphen"/>ward on your back, lifting up both legs, and again letting them down again, and bending them whilſt you lay them down, till you come to the ſhoar, according to your deſire.</p>
+               <p>
+                  <pb n="58" facs="tcp:60131:35"/> This is ſucceeded with a greater and more dangerous difficulty,
+<hi>viz.</hi> when one is caſt out of a priſon, or ſhip, or any other place whatſoever, with hands and feet tied; being skilful in this Arti<g ref="char:EOLhyphen"/>ficial way, you may ſafely come out of the water: The avoiding of this danger and others of the like nature, when you ſwim on the belly, is ſhewn by</p>
+            </div>
+            <div n="37" type="section">
+               <head>SECT. XXXVII. <hi>Prolapſion or Swimming forward.</hi>
+               </head>
+               <p>Alſo Swimming forward (as I appre<g ref="char:EOLhyphen"/>hend) is Prolapſion: and though the term be borrowed, yet it is properly and ge<g ref="char:EOLhyphen"/>nuinely to be ſo called; becauſe as worms or Snakes ſlide forward, drawing the poſterior parts (that cling together) by the ſlimy tenacitie of their fore<g ref="char:EOLhyphen"/>parts; ſo he that is expert at this, ſlides out of the midſt of the thickeſt weeds by little and little; Thus, Swimming on the belly, in this caſe, you go for<g ref="char:EOLhyphen"/>ward; your legs ſtretched out neatly backwards, and your hands forwards, but
+<pb n="59" facs="tcp:60131:35"/>both together; but ſo, that the Arms and hands be extended as far as they can from the breaſt, with your fingers cloſe together, the palms of your hands hol<g ref="char:EOLhyphen"/>low, and tending to the bottom: being thus diſpoſed according to Art, through the ſtrength of the hollow palm, and the bones of the elbo, you draw to you the water that is before you; which whilſt the body and the leggs joyntly do accommodate themſelves to a gentle, ſlow, and farther motion, doth bring us ſafe and ſound out of the thick plats of weeds.</p>
+               <p>Let them that uſe this trick, beware leſt they ſtrive in this condition too fer<g ref="char:EOLhyphen"/>vently and furiouſly, but pleaſantly, gent<g ref="char:EOLhyphen"/>ly and couragiouſly; let them not ſpread forth their hands, nor their feet at all; for without controverſie this predicted danger would ſucceed; whoſe knotty connexion or twiſting together (unleſs ſome external ayd were preſent) can no wayes be untied without endangering their life: this difficultie is ſucceeded by a pleaſant and prettie colluſion or ſport.</p>
+            </div>
+            <div n="38" type="section">
+               <pb n="60" facs="tcp:60131:36"/>
+               <head>SECT. XXXVIII. <hi>Sitting on the water contracted or bend<g ref="char:EOLhyphen"/>ing.</hi>
+               </head>
+               <p>For they that are skilful in Swim<g ref="char:EOLhyphen"/>ming, ſwim ſeveral ways, and by a various artifice, lying, walking, ſtand<g ref="char:EOLhyphen"/>ing, and alſo ſitting; in what chair they uſe to ſit, is hard to reſolve, 'tis without doubt a ſoft and eaſie one, that one may ſit upon it without a cuſhon: ſo that the water is to a good Swimmer, a bed in which he may repoſe himſelf; a floor where he may fix his foot; a way where<g ref="char:EOLhyphen"/>in he may walk; a chariot in which he is carried forward; a green field where he may delight himſelf variouſly; a Chair wherein placed he may ſit. But I am al<g ref="char:EOLhyphen"/>moſt tired out with ſtanding on the ſhore, therfore I learn to ſit in the water. This is not performed with a ſtraight, but bowing body, and that by holding one foot in one hand, and the other in the other, his feet being thus held by the hands, being both freed ſucceſſively, and
+<pb n="61" facs="tcp:60131:36"/>preſſed diligently: that you may the better perform this ſlight, firſt you muſt ſtrive to eaſe your body on each ſide, by the attraction and depreſſion of the wa<g ref="char:EOLhyphen"/>ters, the leggs likewiſe after the ſame manner; but ſo, that whilſt you do this, you muſt draw your feet under your hams, towards your thighs, withall bowing them to the knees, till they ac<g ref="char:EOLhyphen"/>cording to the forementioned manner, lay hold of them, and hold them faſt; ſo that the Swimmer muſt bear himſelf up as much as he can, holding his head downwards, and ſo he may ſit.</p>
+               <p>By the help of this trick, you may when your leggs are entangled in weeds, one or both, untie them with both hands: but that which is moſt wonderful is, that if by chance you fall into a deep Well, where you can<g ref="char:EOLhyphen"/>not ſwim by reaſon of the narrowneſs, nor tread water becauſe of the clayie bottom, or hold up your head for your eaſe, then holding your feet with your hands, and moving to and fro, being in a narrow, and ſhallow muddy foun<g ref="char:EOLhyphen"/>tain, you may cry for help out of the bottom: this affords much eaſe to the
+<pb n="62" facs="tcp:60131:37"/>ſubſequent poſture, above all others, which is termed</p>
+            </div>
+            <div n="39" type="section">
+               <head>SECT. XXXIX. <hi>The cutting of the Toes.</hi>
+               </head>
+               <p>This ſeems a very hard and difficult way, becauſe few can do this in the water: ſome men being on the ground cannot ſtand on one legg and turn them<g ref="char:EOLhyphen"/>ſelves without falling: but many things may be done in the water, that cannot be performed on the Land; and I my ſelf ſeveral times have tried to kiſs my Toe with the help of my hands, when I have been either on the ground, or in bed, and could never do it: but to tell you how to cut the nails in the water, be it never ſo deep, muſt be done after this manner; holding a knife in your right hand, lift up your left legg, and with it draw your foot to your right knee: being thus ordered, take hold of it with your left hand; and being thus held, take hold of your Toes with your right hand; touch them and
+<pb n="63" facs="tcp:60131:37"/>handle them as you pleaſe, and pare them at pleaſure; for you may ſafely do it, and without danger.</p>
+               <p>The utilitie of this is ſuch, you may eaſily waſh your Toes, which many times are fowl between the joynts; pare, clip and cut them, and this at pleaſure unſeen: Though this be leſs profitable then the reſt, yet it is more pleaſant and delightful.</p>
+            </div>
+            <div n="40" type="section">
+               <head>SECT. XL. <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, <hi>or the ſhewing of four parts together above water.</hi>
+               </head>
+               <p>'Tis poſſible for a Swimmer to ſhew four parts of his body above water at one and the ſame time, <hi>viz.</hi> his head, both his lboes, and his knees; 'Tis a curious epiece of Agilitie, nor can it ſoon be attained unto. They that go about it, muſt do it on this manner: you muſt lay one knee athwart the other, lifting up and letting down each legg often, fixing both your hands under each ſide, ſo that
+<pb n="64" facs="tcp:60131:38"/>your elboes come exactly over your breaſt, your breaſt full, and as poſſible; and ſo you may ſwim, and mak a ſport of it.</p>
+               <p>Beſides the pleaſure that rifeth from this difficultie, by this means you may lift up or eaſe both your leggs (one of them at leaſt) when your are Swimming in very deep waters, as is manifeſted by</p>
+            </div>
+            <div n="41" type="section">
+               <head>SECT. XLI. <hi>The Erection or lifting up of the Legg.</hi>
+               </head>
+               <p>There is a difference between ſhewing of the feet and lifting up of the Legg; for the latter is not performed without the help, of the other Legg, and the hands on each ſide preſſing down and forcing the water ſomwhat lower; ſo that whilſt one Legg is ſhewn half above water, the other Legg preſſeth hard and ſtrong the waters beneath.</p>
+               <p>They that have this faculty, may paſs over a River, and carry any ſmall thing between their great Toe at pleaſure; but it is better done by far, by the</p>
+            </div>
+            <div n="42" type="section">
+               <pb n="65" facs="tcp:60131:38"/>
+               <head>SECT. XLII. <hi>Erection or lifting up of the hands.</hi>
+               </head>
+               <p>Whilſt we ſwim on our backs, the uſe of our hands is various and mani<g ref="char:EOLhyphen"/>fold; for we can waſh our body Swim<g ref="char:EOLhyphen"/>ming, or remove weeds from our head, arms, or leggs, or can eaſily eaſe our ſelves; but it is very hard to lift up both hands together when you are Swimming; though it ſeems far eaſier and familiar, then many of the fore<g ref="char:EOLhyphen"/>mentioned trick: but the difficulty ap<g ref="char:EOLhyphen"/>pears in this, that when the armsare lifted up, the breaſt is contracted; which ſo contracted, the body tends ſpeedily downwards. Therefore here lies the ſlight, that when you lift up your arms, you muſt bend your breaſt, but lift up together with the motion of the hands, as much as can poſſibly.</p>
+               <p>If this be done Artificially and firm<g ref="char:EOLhyphen"/>ly, we may tranſport or carry over a gar<g ref="char:EOLhyphen"/>ment or purſe, or any other thing dry. This is followed by</p>
+            </div>
+            <div n="43" type="section">
+               <pb n="66" facs="tcp:60131:39"/>
+               <head>SECT. XLIII. <hi>The drawing on of Boots.</hi>
+               </head>
+               <p>That no man can draw on Boots in the water, or ſwim Booted, nor indeed is it neceſſary, is beyond controverſie; and indeed thoſe that are in danger of drowning, would rather pull them off, then keep them on; Therefore I mean by this term of drawing on Boots, not a realitie, but rather the form or manner of doing it, that repreſents a man putting on Boots; becauſe firſt he lifts up one of his Leggs out of the water; then the other ſucceſſively, and ſo holds them both in his hands; then he lets one down, and ſumbles about the other, as if he were drawing on a Boot. This muſt be done by lifting up the breaſt on high, and extending of it, ſo that it appear above water, ſo that you may let down that Legg quickly, and take up the other with much eaſe, and do the like by that.</p>
+               <p>
+                  <pb n="67" facs="tcp:60131:39"/> This is moſt uſeful for the waſhing of the Leggs, and freeing them from weeds; Like this is</p>
+            </div>
+            <div n="44" type="section">
+               <head>SECT. XLIV. <hi>The leaping of the Goat.</hi>
+               </head>
+               <p>So termed, becauſe like skipping you leap and double the motion of your feet moſt dexterouſly; ſo that they that have have this trick, do double the motion of their feet, as they do that dance in a ring when they caper about. This various and quick motion of the feet at one time, is not done but by an excellent ſpirit, and the Agility of an active body. If a man be qualified with theſe two things requiſite, it muſt be done thus, ſtretching out his breaſt very much, waving about and preſſing down with his hands the water that is about his ſides three or four times, and that thick and quick; but ſo, that having with your hands preſſed down the water deeper then ordinary, and with more ſtrength too, lifting your body up ſtrongly, you
+<pb n="68" facs="tcp:60131:40"/>may caſt up your Legs on high, ſhaking them as often as you pleaſe, and that ſingly or both together, before you put them into the water again.</p>
+            </div>
+            <div n="45" type="section">
+               <head>SECT. XLV.</head>
+               <p>This is the moſt difficult and moſt ingenious of them all; when you have attain'd this perfectly, you are arriv'd to the very height of the Art: do not be ambitious after any more, when you have obtain'd your deſire in this parti<g ref="char:EOLhyphen"/>cular; but now our intent is to find out the way of Swimming under water, and that Artificially too. 'Tis I muſt confeſs the chiefeſt part in the Art, be<g ref="char:EOLhyphen"/>cauſe few try it, becauſe it is very dan<g ref="char:EOLhyphen"/>gerous; but I will in the following Secti<g ref="char:EOLhyphen"/>on manifeſt it unto you as clearly as pof<g ref="char:EOLhyphen"/>ſſible may be, that you may perform it without any great danger, neatly and Artificially.</p>
+            </div>
+            <div n="46" type="section">
+               <pb n="69" facs="tcp:60131:40"/>
+               <head>SECT. XLVI. <hi>Leaping in, head forwards.</hi>
+               </head>
+               <p>This is an unſeemly ſight to all per<g ref="char:EOLhyphen"/>ſons, and a vice, that men ſhould ſink downwards:
+'Tis a vice I confeſs, but not a vice of Nature; and you'ld think that it was not neceſſary for a man to dive by Art: but in realitie to do it Artificially, ſpeedily, neatly, and with<g ref="char:EOLhyphen"/>out danger, is rare. Any one may very eaſily dive down into the water, as it appears by the woful experience of ſo many that are drowned in the Sea. 'Tis difficult, as you may ſee by this follow<g ref="char:EOLhyphen"/>ing example, from many that go about to dive head forwards: they ſtand a great while bending downwards, and double as it were, their face onely being covered with the water, the hinder part of the head and the buttocks floating as it were upon the ſuperficies, or top of the water; ſo that the ſpectators cry aloud oftentimes, A rod, a rod, they want a rod. They cannot indeed go
+<pb n="70" facs="tcp:60131:41"/>down to the water, unleſs they contend and ſtrive very earneſtly to force them<g ref="char:EOLhyphen"/>ſelves down to the bottom: and hence it appears, that a man may naturally ſwim, when he cannot dive, unleſs he violent<g ref="char:EOLhyphen"/>ly force himſelf downwards; and that ſo many are daily drowned, becauſe they violently and eagerly catch the waters and graſp them, when they come to the bottom: neither doth it happen quickly, but after a great luctation and ſtriving. Now they that are exerciſed in the Art, can dive down to the bottom, and that with as much expedition and ſwiftneſs, as an arrow out of a well-ſtrung bow, when neceſſity requires it; nay, they can vary more then an arrow, for they can turn up ſide down, go forward, back<g ref="char:EOLhyphen"/>wards, aſcend, deſcend, ſtraightly, crook<g ref="char:EOLhyphen"/>edly, obliquely, according to their plea<g ref="char:EOLhyphen"/>ſure. The manner of diving head for<g ref="char:EOLhyphen"/>ward is as followeth; you muſt ſtand upright firſt with a ſtraight body, up<g ref="char:EOLhyphen"/>on the ſhore, or any other convenient place: thus placed, when firſt you go to dive head forwards, you muſt bow your body as is mentioned; and then, when you intend to riſe again, when
+<pb n="71" facs="tcp:60131:41"/>you are under the water, leap upward, drawing your chin to your breaſt, and bending it, laying your hand on your hips, and ſo you'l ſtart up immediately. In deſcending, you muſt obſerve this Mothod; be ſure lay both hands upon the oppoſite ſides of your back; and your hands being bowed outwardly, let them be extended ſtifly; and theſe dilating, or ſtretching, will raiſe you upwards, bend you a little backward.</p>
+               <p>This cauſeth the firſt kind of diving downwards, which is called</p>
+            </div>
+            <div n="47" type="section">
+               <head>SECT. XLVII. <hi>The perpendicular deſcent, or ſtraight leaping into the water.</hi>
+               </head>
+               <p>They that practiſe this, do it off high places, as green banks, trees, bridges, cockboats or ſhips; and before they jump down, they lift up their body in the Air as 'twere, that ſo they may reach the bottom with more ſpeed, and more directly. They deal with their
+<pb n="72" facs="tcp:60131:42"/>bodies in this caſe, as Archers by their arrows; for when the arrow comes to its height, then it turns, and falls per<g ref="char:EOLhyphen"/>pendicularly, or directly downwards; in the ſame manner almoſt, he that means to jump down evenly, lifts himſelf up a little, that ſo his head may the better look down to the bottom; and that is eaſily done, if according to what is forementioned, if his hands be athwart, as ſoon, as ever they en<g ref="char:EOLhyphen"/>ter the water with the palms exteriorly bended, let them ſtretch or extend on both ſides the head deſcending, but the hands aſcending with an oblique con<g ref="char:EOLhyphen"/>tention, or athwart one another on one ſide.</p>
+               <p>The uſe of this ſlight is very great, in ſeeking out the deepeſt bottom, without the benefit of which ſwift motion we could by no means perform, for want of breath, nor could we draw breath during that motion: this is ſeldom us'd becauſe 'tis dangerous, Though not difficult: but of great pleaſure and uſe is this ſubſequent</p>
+            </div>
+            <div n="48" type="section">
+               <pb n="73" facs="tcp:60131:42"/>
+               <head>SECT. XLVIII. <hi>Subnatation, or Swimming under wa<g ref="char:EOLhyphen"/>ter.</hi>
+               </head>
+               <p>Many are very much given to this kind of Swimming, which muſt be practi<g ref="char:EOLhyphen"/>ſed in this manner; after that you are under the water, as is before men<g ref="char:EOLhyphen"/>tioned, firſt (which you muſt reſolve on before you dive) either the upper, middle, or lower Region of the water or running River, being under, laying the back of your hands on your back, and being thus placed, ſtretch them quickly, holding the thumb upwards, and the little finger downwards, the deeper you would ſwim, the higher muſt you hold the palme of your hand point<g ref="char:EOLhyphen"/>ing to the bottom with your Thumb; on the out ſide they are to be ſtretched and dilated; but the higher and nearer to the ſuperficies or top of the water that you would ſwim, the wider muſt you hold open your hands, (as they do that ſwim on their bellies) the Thumbs bending toward one the other;
+<pb n="74" facs="tcp:60131:43"/>and the palm of the hand towards the bottom; but he that ſtrives to ſwim un<g ref="char:EOLhyphen"/>derneath, in the midſt of the depth of the water, it will be the ſafeſt way for him to hold down his thumbs a little, that ſo he may as it were attract or draw the water that is before him, and being attracted, may drive it back again; let his hands be bended backward, and almoſt after the ſame manner with his Arms ſtretched forth ſtrongly drawing to them the water that is before, and then after<g ref="char:EOLhyphen"/>ward driving themſelves by the laſt of their former motions, or extention; wheeling about outwardly, till they be almoſt brought down to the knees; this is done by the ſtriking out of the Leggs, as they do that ſwim on their bellies, but 'tis more proper to thoſe that affect Swimming at the bottom rather then then the top of the water.</p>
+               <p>We make uſe of the Swimming under water, when we ſeek after any thing loſt under water, or to tranſport or convey our ſelves ſecretly from one place to an<g ref="char:EOLhyphen"/>other under water; or if we would help any one that is ſunk and in danger of drowning; In this caſe, at ſuch a neceſſi<g ref="char:EOLhyphen"/>tated
+<pb n="75" facs="tcp:60131:43"/>occaſion, be cautious, and venter not too raſhly to go to the party that is drowning, whether it be above or under the water; and ſuffer him not to take hold of you on any part of the body; for if you do, you are gone, there is no remedy, you muſt ſink with him. This is to be executed as followeth: if you will do ſuch a noble courteſie for a friend, let him firſt be ſomwhat ſtifled with the water, ſo that the quickneſs of his ſight may be ſomewhat weakned, that ſo he may not perceive you; but how to know this, is difficult, yet it happens for the moſt part, at the firſt time of his ſinking; Then if you can either ſee, or know in what place, do not put your ſelf under water yet, nor come near above water within twelve foot: then being under water, proceed very ſlowly, wari<g ref="char:EOLhyphen"/>ly, carefully, and by degrees, looking to him very exactly, that when he comes near you he touch you not: and if you can poſſibly, take hold of the hair on the hinder part of his head; his face be<g ref="char:EOLhyphen"/>ing turned upward, then carry him to ſhoar, lifting up and down, rubbing him, and ayring his cloaths, or wringing wa<g ref="char:EOLhyphen"/>ter
+<pb n="76" facs="tcp:60131:44"/>out: in this fatal miſchance, if their be good ſtore of people, take a cord or ſtring, and tie it to his body, and let thoſe that ſtand on the ſhoar (or if the rope be too ſhort) let ſome other in the water hold the end of it in his hand, and upon the ſign given by the other, let him pull him out ſteadily and ſtrong<g ref="char:EOLhyphen"/>ly: for the more exact performing of all which things, is requiſite</p>
+            </div>
+            <div n="49" type="section">
+               <head>SECT. XLIX. <hi>The riſing from under the water.</hi>
+               </head>
+               <p>A man may with much eaſe, when he is under the water, at his pleaſure riſe up again; as was ſaid before: as for this, you muſt do it in the ſame manner al<g ref="char:EOLhyphen"/>moſt, as the <hi>Tropica expedita,</hi> or ſhewing of the Elboes and leggs toge<g ref="char:EOLhyphen"/>ther, one of the palms of your hands turned outwards, and repelling or beat<g ref="char:EOLhyphen"/>ing back the water underneath; the other palm of the hands ſmooth and ex<g ref="char:EOLhyphen"/>tended, attracting or drawing the wa<g ref="char:EOLhyphen"/>tet that is before: when you turn or riſe up at the end of your extenſion, the
+<pb n="77" facs="tcp:60131:44"/>fingers of your hands muſt be extended or ſtretched forward, and bend, and the palm of your hand being turned out<g ref="char:EOLhyphen"/>wardly.</p>
+               <p>The flower and perfection of this re<g ref="char:EOLhyphen"/>mains as yet to be explained, <hi>viz.</hi>
+               </p>
+            </div>
+            <div n="50" type="section">
+               <head>SECT. L. <hi>Circular ſubnation, or Swimming un<g ref="char:EOLhyphen"/>der water circle-wiſe.</hi>
+               </head>
+               <p>When you look for any thing that is loſt, floating as it were above water (which Spaniels do moſt exquiſitely) you muſt encompaſs the bottom circlewiſe, viewing ſeveral places, and that ſo Me<g ref="char:EOLhyphen"/>thodically, that ſometimes if you caſt white pebbles, money, bones or horn-ſhoes, into the water, or any other heavy bodies that tend naturally downward, you may take them up in the ſame order that they were thrown in, not riſing till they have them all. This is done with a great deal of expedition, by Swimming under water circularly.
+<pb n="78" facs="tcp:60131:45"/>'Tis done by the faculty of the hands, winding about the water with a great deal of activity; winding them from the right to the left: if you intend to turn to the right, if to the left, then the involution or turning of the hand pro<g ref="char:EOLhyphen"/>ceeds from the contrary part or ſide.</p>
+               <p>When you paſs by any thing loſt in the water by a ſtraight jumping in, then you correct your error by a circular motion; and in all Swimming under water, you muſt have a care of going no lower, then he hath light to ſhew him his way; for if the water is obſcured and your eye likewiſe, this is a ſign that you are crept too far under the bank, or gone too deep, or under a cock-boat, or ſome ſuch thing, deceiving your ſight of the beams of the light, and covering or darkning the ſuperficies or top of the water, to have erred not without danger; Now the difficulty is how to eſcape, when you can neither ſee any thing, nor call on any body, nor riſe up, nor freely breath. The onely and ſureſt remedy is, firſt to keep out of ſuch thick obſcure places: but if you are ob<g ref="char:EOLhyphen"/>ſcured
+<pb n="79" facs="tcp:60131:45"/>ſo through your haſty and ſpeedy courſe, remember which way you came, and return in a direct line backward, endeavouring to riſe upward; for the light will appear to you a great length: above all, be very careful that you breath not under water; but if the enemy ſtand on the ſhoar with their mortal darts or arrows, and keep you under longer then you can well bear, then we have recourſe to</p>
+            </div>
+            <div n="51" type="section">
+               <head>SECT. LI. <hi>The Nimbleneſs of the Dolphin.</hi>
+               </head>
+               <p>This teacheth you to riſe up and go down; bobbing up your head a little, and ſo draw breath, then down again with ſafety: which may be done by thoſe that are put to this extremity to ſave their lives, five hundred paces to<g ref="char:EOLhyphen"/>gether (chiefly in the Summer) and that with very little or no danger.</p>
+               <p>They that try this, with ſome of the forementioned kinds of Swimming
+<pb n="80" facs="tcp:60131:46"/>forward with their face downward, do preſently ſink themſelves (the deeper, the ſafer, ſo that they can but ſee) Swim<g ref="char:EOLhyphen"/>ming forward thus under water, till they can no longer without prejudice and hurt to themſelves, hold their breath. Then proceeding by degrees, let them begin to riſe; and when they ſee through the clearneſs of the light that they are almoſt at the top, let them of a ſuddain pop up their head; and having breathed a little, let them down again to the bottom of the water; going forward according to their plea<g ref="char:EOLhyphen"/>ſure more or leſs: and let them do this as often as the danger and preſent oc<g ref="char:EOLhyphen"/>caſion requires. Thus having related un<g ref="char:EOLhyphen"/>to you theſe ſecrets with all poſſible brevity and ſuccinctneſs, <hi>viz.</hi> how a man may be ſafe and ſecure from re<g ref="char:EOLhyphen"/>ceiving any danger by the water when he is in or under the water, nay from any danger or enemy that proſecutes and follows us on the ſhoar; what re<g ref="char:EOLhyphen"/>mains now, but</p>
+            </div>
+            <div n="52" type="section">
+               <pb n="81" facs="tcp:60131:46"/>
+               <head>SECT. LII. <hi>The laſt Act or poſture in Swim<g ref="char:EOLhyphen"/>ming.</hi>
+               </head>
+               <p>Although the longer or more you ſwim, you do it the better and with more grace, yet after you have ſtaid a ſufficient while in the water, you muſt go to ſhoar, leſt your members and joynts, through the too nipping cold of the water (as mine begin to be at preſent) be benummed with the wa<g ref="char:EOLhyphen"/>ter; Therefore when you are well waſh'd, and all the parts of your body clean; return to the place that is moſt fit and commodious for you (which ought to have been ſought out before you committed your body to the tender and ſoft footing of the water) and this muſt be done, or at leaſt I uſed to do it with my face upwards, on my back, or belly, or ſide, or by a ſupine re<g ref="char:EOLhyphen"/>trogradation, or returning on my back: being upon the ſhore, wrap your ſelf in your cloke; and having got a cruſt in your hand, with your ſhoes ſlipt on, run
+<pb n="82" facs="tcp:60131:47"/>about the green fields, leaping and play<g ref="char:EOLhyphen"/>ing. The eating of bread belongs alſo to this Art very much: for after the languiſhing digeſtion of the hungry Stomack, it gathers and raiſeth up the ſpirits within, removes the pains of the head (that are often the effects of too long Swimming; it reſtores the heat, renews the colour, recreates the heart, and finally exhilarates or en<g ref="char:EOLhyphen"/>livens the whole body. Theſe things have I related to you at preſent with much haſt; and according to my time, I have inſtructed you how to behave your ſelf like a <hi>Proteus</hi> in the water, or A Sea-God, to appear in ſeveral ſhapes, which you may ſoon attain to with neatneſs and perfection, ſo you frequent the River of Thames twice or thrice a day. As for me, I ſhall cordially rejoyce, if my water-work hath pro<g ref="char:EOLhyphen"/>moted you a degree higher in the Art of Swimming. But I forget my ſelf; <hi>Phebus</hi> is gone to bed (and he honours Swimming ſo far, as firſt to water his horſes) and the wearied hours of the day give place to the ſable mantle of the night. Now 'tis time to ſound a retreat: and leſt I
+<pb n="83" facs="tcp:60131:47"/>ſhould too much offend your weak Stomack by being ſo long on the water, Ile return to my proper Element the Land. I am ſo reall hearted to this Na<g ref="char:EOLhyphen"/>tion, that I have pen'd down and direct<g ref="char:EOLhyphen"/>ed ſeveral wayes how men may avoid drowning. As for that uſual diſaſter that attends them by Land, this is my Letany, Good Lord deliver them. Amen.</p>
+            </div>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
